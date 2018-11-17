@@ -12,4 +12,4 @@ COPY . /app
 
 EXPOSE 5000
 ENTRYPOINT [ "python" ]
-CMD [ "flaskr/app.py" ]
+CMD [ "src/app.py" ]
